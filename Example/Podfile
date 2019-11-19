@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LetterCase_Example' do
+  pod 'LetterCase', :path => '../'
+
+  target 'LetterCase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

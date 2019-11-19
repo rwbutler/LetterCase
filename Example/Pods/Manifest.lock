@@ -1,0 +1,16 @@
+PODS:
+  - LetterCase (0.1.0)
+
+DEPENDENCIES:
+  - LetterCase (from `../`)
+
+EXTERNAL SOURCES:
+  LetterCase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LetterCase: c7f94685d7e54c7f61cccab99b58c237a12262a5
+
+PODFILE CHECKSUM: ea47186186dbd7dd2cd2b17aacd77076d0ea9c7f
+
+COCOAPODS: 1.8.3
