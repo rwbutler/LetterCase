@@ -9,6 +9,7 @@ import Foundation
 
 public extension String {
     
+    // swiftlint:disable:next cyclomatic_complexity
     func letterCase(_ letterCase: LetterCase, options: LetterCase.Options = []) -> String {
         switch letterCase {
         case .capitalized:
