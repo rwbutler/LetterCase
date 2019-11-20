@@ -1,9 +1,12 @@
-# LetterCase
+![LetterCase](https://github.com/rwbutler/LetterCase/raw/master/docs/images/letter-case-banner.png)
 
 [![CI Status](https://img.shields.io/travis/rwbutler/LetterCase.svg?style=flat)](https://travis-ci.org/rwbutler/LetterCase)
 [![Version](https://img.shields.io/cocoapods/v/LetterCase.svg?style=flat)](https://cocoapods.org/pods/LetterCase)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/LetterCase.svg?style=flat)](https://cocoapods.org/pods/LetterCase)
 [![Platform](https://img.shields.io/cocoapods/p/LetterCase.svg?style=flat)](https://cocoapods.org/pods/LetterCase)
+[![Twitter](https://img.shields.io/badge/twitter-@ross_w_butler-blue.svg?style=flat)](https://twitter.com/ross_w_butler)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://swift.org/)
 
 Lightweight library written in Swift for converting the letter case of a String.
 
