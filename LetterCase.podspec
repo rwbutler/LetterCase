@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LetterCase'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.swift_version    = '5.0'
   s.summary          = 'String letter case conversion'
   s.description      = <<-DESC

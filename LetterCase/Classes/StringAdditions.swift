@@ -9,37 +9,24 @@ import Foundation
 
 public extension String {
     
-    // swiftlint:disable:next cyclomatic_complexity
     func letterCase(_ letterCase: LetterCase, options: LetterCase.Options = []) -> String {
         switch letterCase {
         case .capitalized:
-            var input = self
-            if options.contains(.stripPunctuation) {
-                input = stripPunctuation(input)
-            }
-            return input.capitalized
+            return capitalized(options: options)
         case .kebab:
-            return self.kebabCased(options: options)
+            return kebabCased(options: options)
         case .lower:
-            var input = self
-            if options.contains(.stripPunctuation) {
-                input = stripPunctuation(input)
-            }
-            return input.lowercased()
+            return lowerCased(options: options)
         case .lowerCamel:
-            return self.lowerCamelCased(options: options)
+            return lowerCamelCased(options: options)
         case .macro:
-            return self.macroCased(options: options)
+            return macroCased(options: options)
         case .snake:
-            return self.snakeCased(options: options)
+            return snakeCased(options: options)
         case .upper:
-            var input = self
-            if options.contains(.stripPunctuation) {
-                input = stripPunctuation(input)
-            }
-            return input.uppercased()
+            return upperCased(options: options)
         case .upperCamel:
-            return self.upperCamelCased(options: options)
+            return upperCamelCased(options: options)
         default:
             var input = self
             if options.contains(.stripPunctuation) {
@@ -49,12 +36,28 @@ public extension String {
         }
     }
     
+    func capitalized(options: LetterCase.Options = []) -> String {
+        var input = self
+        if options.contains(.stripPunctuation) {
+            input = stripPunctuation(input)
+        }
+        return input.capitalized
+    }
+    
     func kebabCased(options: LetterCase.Options = []) -> String {
         var options: LetterCase.Options = options
         if !options.contains(.preservePunctuation) {
             options.update(with: .stripPunctuation)
         }
         return capitalizeSubSequences(capitalizeFirst: false, conjunction: "-", options: options)
+    }
+    
+    func lowerCased(options: LetterCase.Options = []) -> String {
+        var input = self
+        if options.contains(.stripPunctuation) {
+            input = stripPunctuation(input)
+        }
+        return input.lowercased()
     }
     
     func lowerCamelCased(options: LetterCase.Options = []) -> String {
@@ -91,6 +94,14 @@ public extension String {
             options.update(with: .stripPunctuation)
         }
         return capitalizeSubSequences(capitalizeFirst: true, options: options)
+    }
+    
+    func upperCased(options: LetterCase.Options = []) -> String {
+        var input = self
+        if options.contains(.stripPunctuation) {
+            input = stripPunctuation(input)
+        }
+        return input.uppercased()
     }
     
 }
