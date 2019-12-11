@@ -10,19 +10,122 @@
 
 Lightweight library written in Swift for converting the letter case of a String.
 
-## Example
+- [Features](#features)
+- [Installation](#installation)
+	- [Cocoapods](#cocoapods)
+	- [Carthage](#carthage)
+	- [Swift Package Manager](#swift-package-manager)
+- [Letter Cases](#letter-cases)
+- [Usage](#usage)
+- [Author](#author)
+- [License](#license)
+- [Additional Software](#additional-software)
+	- [Frameworks](#frameworks)
+	- [Tools](#tools)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Features
 
-## Requirements
+- [x] Converts Strings to a variety of supported cases including: capitalized, kebab case, lower case, lower camel case, macro case, snake case, upper case and upper camel case.
+- [x] Provides convenience methods on `String` for each of the supported cases e.g. `"The Quick Brown Fox".kebabCased()` emits "the-quick-brown-fox".
 
 ## Installation
 
-LetterCase is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### Cocoapods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager which integrates dependencies into your Xcode workspace. To install it using [Ruby gems](https://rubygems.org/) run:
+
+```bash
+gem install cocoapods
+```
+
+To install LetterCase using Cocoapods, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LetterCase'
+pod "LetterCase"
+```
+
+Then run the command:
+
+```ruby
+pod install
+```
+
+For more information [see here](https://cocoapods.org/#getstarted).
+
+### Carthage
+
+Carthage is a dependency manager which produces a binary for manual integration into your project. It can be installed via [Homebrew](https://brew.sh/) using the commands:
+
+```bash
+brew update
+brew install carthage
+```
+
+In order to integrate LetterCase into your project via Carthage, add the following line to your project's Cartfile:
+
+```ogdl
+github "rwbutler/LetterCase"
+```
+
+From the macOS Terminal run `carthage update --platform iOS` to build the framework then drag `LetterCase.framework` into your Xcode project.
+
+For more information [see here](https://github.com/Carthage/Carthage#quick-start).
+
+### Swift Package Manager
+
+Xcode 11 includes support for [Swift Package Manager](https://swift.org/package-manager/). In order to add LetterCase to your project in Xcode 11, from the `File` menu select `Swift Packages` and then select `Add Package Dependency`.
+
+A dialogue will request the package repository URL which is:
+
+```
+https://github.com/rwbutler/LetterCase
+```
+
+After verifying the URL, Xcode will prompt you to select whether to pull a specific branch, commit or versioned release into your project. 
+
+<div align="center">
+    <img src="https://github.com/rwbutler/Connectivity/raw/master/docs/images/package-options.png" alt="Xcode 11 Package Options">
+</div>
+
+Proceed to the next step by where you will be asked to select the package product to integrate into a target. There will be a single package product named `LetterCase` which should be pre-selected. Ensure that your main app target is selected from the rightmost column of the dialog then click Finish to complete the integration.
+
+<div align="center">
+    <img src="https://github.com/rwbutler/Connectivity/raw/master/docs/images/add-package.png" alt="Xcode 11 Add Package">
+</div>
+
+## Letter Cases
+
+    case regular                     // No transformation applied.
+    case capitalized                 // e.g. Capitalized Case
+    case kebab                       // e.g. kebab-case
+    case lower                       // e.g. lower case
+    case lowerCamel                  // e.g. lowerCamelCase
+    case macro                       // e.g. MACRO_CASE
+    case snake                       // e.g. snakecase
+    case upper                       // e.g. UPPER CASE
+    case upperCamel                  // e.g. UpperCamelCase
+    
+## Usage
+
+In order to use LetterCase first import it using:
+`import LetterCase`. Then invoke one the convenience methods on `String` as follows:
+
+```swift
+let exampleString = "The quick brown fox jumped over the lazy dog."
+let result = exampleString.letterCase(.kebab)
+print(result)
+```
+
+Results in the following being printed:
+
+`the-quick-brown-fox-jumped-over-the-lazy-dog`
+
+Alternatively:
+
+```swift
+let exampleString = "The quick brown fox jumped over the lazy dog."
+let result = exampleString.kebabCased()
+print(result)
 ```
 
 ## Author
