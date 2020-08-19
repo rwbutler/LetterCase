@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13C3952024EDC2E900EA1E57 /* JSONDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3951F24EDC2E900EA1E57 /* JSONDecodingTests.swift */; };
+		13C3952224EDC31400EA1E57 /* Vehicles.json in Resources */ = {isa = PBXBuildFile; fileRef = 13C3952124EDC31400EA1E57 /* Vehicles.json */; };
 		3C900FF1C771680F1237CBEC /* Pods_LetterCase_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DFB89ED38F56810E6B14BC /* Pods_LetterCase_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13C3951F24EDC2E900EA1E57 /* JSONDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodingTests.swift; sourceTree = "<group>"; };
+		13C3952124EDC31400EA1E57 /* Vehicles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Vehicles.json; sourceTree = "<group>"; };
 		2B7B36D3BD24CD88B3519166 /* Pods_LetterCase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetterCase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4468EC74488BD05AD816E34B /* Pods-LetterCase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetterCase_Example.debug.xcconfig"; path = "Target Support Files/Pods-LetterCase_Example/Pods-LetterCase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		530AED0121AC39612F5B3942 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				13C3951F24EDC2E900EA1E57 /* JSONDecodingTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -145,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEA1AFB9204008FA782 /* Info.plist */,
+				13C3952124EDC31400EA1E57 /* Vehicles.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -256,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C3952224EDC31400EA1E57 /* Vehicles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C3952024EDC2E900EA1E57 /* JSONDecodingTests.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

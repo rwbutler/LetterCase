@@ -12,6 +12,7 @@
 		136373BD238448B700A4E786 /* StringAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136373BA238448B700A4E786 /* StringAdditions.swift */; };
 		136373BE238448B700A4E786 /* LetterCaseOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136373BB238448B700A4E786 /* LetterCaseOptions.swift */; };
 		136373BF238448B700A4E786 /* LetterCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136373BC238448B700A4E786 /* LetterCase.swift */; };
+		13C3951E24ED73F700EA1E57 /* KeyDecodingStrategyAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3951D24ED73F700EA1E57 /* KeyDecodingStrategyAdditions.swift */; };
 		47483AC77A4589E22F8E27AFFC951CEB /* Pods-LetterCase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30000CD1B08666EFADF1A551C8EB9D45 /* Pods-LetterCase_Example-dummy.m */; };
 		6EB4EBF9A8133D511C8D809A0F126EBA /* Pods-LetterCase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14ABCE82A9F82AC3C5D165DEDBE0D7E8 /* Pods-LetterCase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B2E3ADFBA4FB87DCDC6DCA22EEB01EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -44,6 +45,7 @@
 		136373BA238448B700A4E786 /* StringAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringAdditions.swift; path = LetterCase/Classes/StringAdditions.swift; sourceTree = "<group>"; };
 		136373BB238448B700A4E786 /* LetterCaseOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LetterCaseOptions.swift; path = LetterCase/Classes/LetterCaseOptions.swift; sourceTree = "<group>"; };
 		136373BC238448B700A4E786 /* LetterCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LetterCase.swift; path = LetterCase/Classes/LetterCase.swift; sourceTree = "<group>"; };
+		13C3951D24ED73F700EA1E57 /* KeyDecodingStrategyAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyDecodingStrategyAdditions.swift; sourceTree = "<group>"; };
 		14ABCE82A9F82AC3C5D165DEDBE0D7E8 /* Pods-LetterCase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LetterCase_Tests-umbrella.h"; sourceTree = "<group>"; };
 		180D0CDB847732B3F9439667E222788A /* LetterCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LetterCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BADFC3669487D9099AA75FDFDC8A108 /* Pods_LetterCase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetterCase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +186,7 @@
 		E07607F282C2A19F3F1EE2EC78FAD4B4 /* LetterCase */ = {
 			isa = PBXGroup;
 			children = (
+				13C3951D24ED73F700EA1E57 /* KeyDecodingStrategyAdditions.swift */,
 				136373BC238448B700A4E786 /* LetterCase.swift */,
 				136373BB238448B700A4E786 /* LetterCaseOptions.swift */,
 				136373BA238448B700A4E786 /* StringAdditions.swift */,
@@ -380,6 +383,7 @@
 				136373BE238448B700A4E786 /* LetterCaseOptions.swift in Sources */,
 				A988315C847EA8157AC3BF2C98A1463F /* LetterCase-dummy.m in Sources */,
 				136373BF238448B700A4E786 /* LetterCase.swift in Sources */,
+				13C3951E24ED73F700EA1E57 /* KeyDecodingStrategyAdditions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +440,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.2.0;
+				MARKETING_VERSION = 1.3.0;
 				MODULEMAP_FILE = "Target Support Files/LetterCase/LetterCase.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rwbutler.LetterCase;
 				PRODUCT_MODULE_NAME = LetterCase;
@@ -471,7 +475,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.2.0;
+				MARKETING_VERSION = 1.3.0;
 				MODULEMAP_FILE = "Target Support Files/LetterCase/LetterCase.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rwbutler.LetterCase;
 				PRODUCT_MODULE_NAME = LetterCase;

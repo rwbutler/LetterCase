@@ -1,0 +1,19 @@
+{
+    "vehicles": [{
+        "name": "car",
+        "travels-on": "road",
+        "number-of-wheels": 4
+    }, {
+        "name": "boat",
+        "travels-on": "water",
+        "number-of-wheels": 0
+    }, {
+        "name": "train",
+        "travels-on": "rail",
+        "number-of-wheels": 80
+    }, {
+        "name": "plane",
+        "travels-on": "air",
+        "number-of-wheels": 18
+    }]
+}
