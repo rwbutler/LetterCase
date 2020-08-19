@@ -30,7 +30,7 @@ class JSONDecodingTests: XCTestCase {
     
     private let exampleString = "The quick brown fox jumped over the lazy dog."
     
-    func testConversionToRegularCase() throws {
+    func testDecodingJSONContainingKebabCaseKeys() throws {
         guard let testJSONURL = Bundle.init(for: JSONDecodingTests.self)
             .url(forResource: "Vehicles", withExtension: "json") else {
             XCTFail("Vehicles.json missing from test bundle.")
@@ -39,8 +39,7 @@ class JSONDecodingTests: XCTestCase {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromKebabCase
         let testData = try Data(contentsOf: testJSONURL)
-        let result = try decoder.decode(Vehicles.self, from: testData)
-        XCTAssertNotNil(result)
+        XCTAssertNoThrow(try decoder.decode(Vehicles.self, from: testData))
     }
     
 }
