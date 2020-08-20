@@ -128,6 +128,16 @@ let result = exampleString.kebabCased()
 print(result)
 ```
 
+### LetterCase Conversion
+
+Use the convert function to convert from one letter case to another as follows:
+
+```swift
+let input = "the-quick-brown-fox-jumped-over-the-lazy-dog"
+let result = input.convert(from: .kebab, to: .capitalized)
+print(result) // Prints "The Quick Brown Fox Jumped Over The Lazy Dog"
+```
+
 ## Author
 
 [Ross Butler](https://github.com/rwbutler)
