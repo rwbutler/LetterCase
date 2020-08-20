@@ -17,9 +17,11 @@ public enum LetterCase: String {
     case lower                       // e.g. lower case
     case lowerCamel = "lower-camel"  // e.g. lowerCamelCase
     case macro                       // e.g. MACRO_CASE
-    case snake                       // e.g. snakecase
+    case train                       // e.g. TRAIN-CASE
+    case snake                       // e.g. snake_case
     case upper                       // e.g. UPPER CASE
     case upperCamel = "upper-camel"  // e.g. UpperCamelCase
+
 }
 
 extension LetterCase: CustomStringConvertible {
@@ -39,6 +41,8 @@ extension LetterCase: CustomStringConvertible {
             return "Regular"
         case .snake:
             return "Snake case"
+        case .train:
+            return "Train case"
         case .upper:
             return "Upper case"
         case .upperCamel:

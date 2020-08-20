@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		13C3952024EDC2E900EA1E57 /* JSONDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3951F24EDC2E900EA1E57 /* JSONDecodingTests.swift */; };
-		13C3952224EDC31400EA1E57 /* Vehicles.json in Resources */ = {isa = PBXBuildFile; fileRef = 13C3952124EDC31400EA1E57 /* Vehicles.json */; };
+		13C3952224EDC31400EA1E57 /* vehicles-kebab-case.json in Resources */ = {isa = PBXBuildFile; fileRef = 13C3952124EDC31400EA1E57 /* vehicles-kebab-case.json */; };
+		13D2162E24EEA22500341224 /* vehicles-snake-case.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D2162D24EEA22500341224 /* vehicles-snake-case.json */; };
+		13D2163024EEA23400341224 /* vehicles-screaming-snake-case.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D2162F24EEA23400341224 /* vehicles-screaming-snake-case.json */; };
+		13D2163224EEA25D00341224 /* vehicles-train-case.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D2163124EEA25D00341224 /* vehicles-train-case.json */; };
+		13D2163424EED48D00341224 /* vehicles-lower-case.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D2163324EED48D00341224 /* vehicles-lower-case.json */; };
+		13D2163624EED4A300341224 /* vehicles-upper-case.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D2163524EED4A300341224 /* vehicles-upper-case.json */; };
+		13D2163824EED4B800341224 /* vehicles-capitalized.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D2163724EED4B800341224 /* vehicles-capitalized.json */; };
+		13D2163A24EF1EEB00341224 /* vehicles-lower-camel-case.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D2163924EF1EEB00341224 /* vehicles-lower-camel-case.json */; };
+		13D2163C24EF1F2F00341224 /* vehicles-upper-camel-case.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D2163B24EF1F2F00341224 /* vehicles-upper-camel-case.json */; };
 		3C900FF1C771680F1237CBEC /* Pods_LetterCase_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DFB89ED38F56810E6B14BC /* Pods_LetterCase_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* LetterCaseConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* LetterCaseConversionTests.swift */; };
 		A60168B6EA8981111B569385 /* Pods_LetterCase_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7B36D3BD24CD88B3519166 /* Pods_LetterCase_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +39,15 @@
 
 /* Begin PBXFileReference section */
 		13C3951F24EDC2E900EA1E57 /* JSONDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodingTests.swift; sourceTree = "<group>"; };
-		13C3952124EDC31400EA1E57 /* Vehicles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Vehicles.json; sourceTree = "<group>"; };
+		13C3952124EDC31400EA1E57 /* vehicles-kebab-case.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "vehicles-kebab-case.json"; sourceTree = "<group>"; };
+		13D2162D24EEA22500341224 /* vehicles-snake-case.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "vehicles-snake-case.json"; sourceTree = "<group>"; };
+		13D2162F24EEA23400341224 /* vehicles-screaming-snake-case.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "vehicles-screaming-snake-case.json"; sourceTree = "<group>"; };
+		13D2163124EEA25D00341224 /* vehicles-train-case.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "vehicles-train-case.json"; sourceTree = "<group>"; };
+		13D2163324EED48D00341224 /* vehicles-lower-case.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "vehicles-lower-case.json"; sourceTree = "<group>"; };
+		13D2163524EED4A300341224 /* vehicles-upper-case.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "vehicles-upper-case.json"; sourceTree = "<group>"; };
+		13D2163724EED4B800341224 /* vehicles-capitalized.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "vehicles-capitalized.json"; sourceTree = "<group>"; };
+		13D2163924EF1EEB00341224 /* vehicles-lower-camel-case.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "vehicles-lower-camel-case.json"; sourceTree = "<group>"; };
+		13D2163B24EF1F2F00341224 /* vehicles-upper-camel-case.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "vehicles-upper-camel-case.json"; sourceTree = "<group>"; };
 		2B7B36D3BD24CD88B3519166 /* Pods_LetterCase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetterCase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4468EC74488BD05AD816E34B /* Pods-LetterCase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetterCase_Example.debug.xcconfig"; path = "Target Support Files/Pods-LetterCase_Example/Pods-LetterCase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		530AED0121AC39612F5B3942 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -45,7 +61,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* LetterCase_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetterCase_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* LetterCaseConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCaseConversionTests.swift; sourceTree = "<group>"; };
 		65DFB89ED38F56810E6B14BC /* Pods_LetterCase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetterCase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A8A38A6677281BD431725C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9DE2AE6FD395632AA936F9D9 /* LetterCase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LetterCase.podspec; path = ../LetterCase.podspec; sourceTree = "<group>"; };
@@ -139,7 +155,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACEB1AFB9204008FA782 /* LetterCaseConversionTests.swift */,
 				13C3951F24EDC2E900EA1E57 /* JSONDecodingTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -150,7 +166,15 @@
 			isa = PBXGroup;
 			children = (
 				607FACEA1AFB9204008FA782 /* Info.plist */,
-				13C3952124EDC31400EA1E57 /* Vehicles.json */,
+				13C3952124EDC31400EA1E57 /* vehicles-kebab-case.json */,
+				13D2162D24EEA22500341224 /* vehicles-snake-case.json */,
+				13D2162F24EEA23400341224 /* vehicles-screaming-snake-case.json */,
+				13D2163124EEA25D00341224 /* vehicles-train-case.json */,
+				13D2163324EED48D00341224 /* vehicles-lower-case.json */,
+				13D2163524EED4A300341224 /* vehicles-upper-case.json */,
+				13D2163724EED4B800341224 /* vehicles-capitalized.json */,
+				13D2163924EF1EEB00341224 /* vehicles-lower-camel-case.json */,
+				13D2163B24EF1F2F00341224 /* vehicles-upper-camel-case.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -262,7 +286,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13C3952224EDC31400EA1E57 /* Vehicles.json in Resources */,
+				13D2163824EED4B800341224 /* vehicles-capitalized.json in Resources */,
+				13D2163024EEA23400341224 /* vehicles-screaming-snake-case.json in Resources */,
+				13D2163A24EF1EEB00341224 /* vehicles-lower-camel-case.json in Resources */,
+				13D2163424EED48D00341224 /* vehicles-lower-case.json in Resources */,
+				13D2163C24EF1F2F00341224 /* vehicles-upper-camel-case.json in Resources */,
+				13C3952224EDC31400EA1E57 /* vehicles-kebab-case.json in Resources */,
+				13D2162E24EEA22500341224 /* vehicles-snake-case.json in Resources */,
+				13D2163224EEA25D00341224 /* vehicles-train-case.json in Resources */,
+				13D2163624EED4A300341224 /* vehicles-upper-case.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C3952024EDC2E900EA1E57 /* JSONDecodingTests.swift in Sources */,
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* LetterCaseConversionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
