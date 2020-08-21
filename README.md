@@ -8,7 +8,7 @@
 [![Twitter](https://img.shields.io/badge/twitter-@ross_w_butler-blue.svg?style=flat)](https://twitter.com/ross_w_butler)
 [![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://swift.org/)
 
-Lightweight library written in Swift for converting the letter case of a String.
+Lightweight library written in Swift for converting the letter case of a String. For more information take a look at the [blog post](https://medium.com/@rwbutler/supercharge-codable-by-implementing-a-json-key-decoding-strategy-a46fedacabc4) or the table of contents below:
 
 - [Features](#features)
 - [Installation](#installation)
