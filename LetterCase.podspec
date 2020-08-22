@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'LetterCase'
-  s.version          = '1.4.0'
+  s.version          = '1.5.0'
   s.swift_version    = '5.0'
-  s.summary          = 'String letter case conversion'
+  s.summary          = 'String letter case conversion and JSON decoding / encoding strategies'
   s.description      = <<-DESC
-Lightweight library written in Swift for converting the letter case of a String.
+Lightweight library written in Swift for converting the letter case of a String. Includes implementations of JSONDecoder.KeyDecodingStrategy and JSONEncoder.KeyEncodingStrategy for JSON decoding / encoding.
                        DESC
   s.homepage         = 'https://github.com/rwbutler/LetterCase'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

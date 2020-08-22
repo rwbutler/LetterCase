@@ -2,11 +2,11 @@
 
 [![CI Status](https://img.shields.io/travis/rwbutler/LetterCase.svg?style=flat)](https://travis-ci.org/rwbutler/LetterCase)
 [![Version](https://img.shields.io/cocoapods/v/LetterCase.svg?style=flat)](https://cocoapods.org/pods/LetterCase)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Frwbutler%2FLetterCase%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/rwbutler/LetterCase)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Frwbutler%2FLetterCase%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/rwbutler/LetterCase)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/LetterCase.svg?style=flat)](https://cocoapods.org/pods/LetterCase)
-[![Platform](https://img.shields.io/cocoapods/p/LetterCase.svg?style=flat)](https://cocoapods.org/pods/LetterCase)
 [![Twitter](https://img.shields.io/badge/twitter-@ross_w_butler-blue.svg?style=flat)](https://twitter.com/ross_w_butler)
-[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://swift.org/)
 
 Lightweight library written in Swift for converting the letter case of a String. For more information take a look at the [blog post](https://medium.com/@rwbutler/supercharge-codable-by-implementing-a-json-key-decoding-strategy-a46fedacabc4) or the table of contents below:
 
@@ -26,6 +26,8 @@ Lightweight library written in Swift for converting the letter case of a String.
 ## Features
 
 - [x] Converts Strings to a variety of supported cases including: capitalized, kebab case, lower case, lower camel case, macro case, snake case, upper case and upper camel case.
+- [x] Provides conversion from any letter case to another e.g. `"the-quick-brown-fox-jumped-over-the-lazy-dog".convert(from: .kebab, to: .macro)` prints THE_QUICK_BROWN_FOX_JUMPED_OVER_THE_LAZY_DOG
+- [x] Implementations of `JSONDecoder.KeyDecodingStrategy` and `JSONEncoder.KeyEncodingStrategy` for decoding / encoding of JSON using `Codable` keys in just about any letter case.
 - [x] Provides convenience methods on `String` for each of the supported cases e.g. `"The Quick Brown Fox".kebabCased()` emits "the-quick-brown-fox".
 
 ## Installation
@@ -137,6 +139,79 @@ let input = "the-quick-brown-fox-jumped-over-the-lazy-dog"
 let result = input.convert(from: .kebab, to: .capitalized)
 print(result) // Prints "The Quick Brown Fox Jumped Over The Lazy Dog"
 ```
+
+### JSON Decoding
+
+To decode JSON with keys in [kebab case](https://en.wikipedia.org/wiki/Letter_case#Special_case_styles) e.g.
+
+```json
+{
+    "vehicles": [{
+        "name": "car",
+        "travels-on": "road",
+        "number-of-wheels": 4
+    }, {
+        "name": "boat",
+        "travels-on": "water",
+        "number-of-wheels": 0
+    }, {
+        "name": "train",
+        "travels-on": "rail",
+        "number-of-wheels": 80
+    }, {
+        "name": "plane",
+        "travels-on": "air",
+        "number-of-wheels": 18
+    }]
+}
+```
+
+Specify the `keyDecodingStrategy` as follows:
+
+```swift
+let jsonData = try Data(contentsOf: jsonResourceURL)
+let decoder = JSONDecoder()
+decoder.keyDecodingStrategy = .convertFromKebabCase
+let vehicles try decoder.decode(Vehicles.self, from: jsonData)
+```
+
+Available strategies include:
+
+- convertFromCapitalized
+- convertFromDashCase
+- convertFromKebabCase
+- convertFromLispCase
+- convertFromLowerCase
+- convertFromLowerCamelCase
+- convertFromMacroCase
+- convertFromScreamingSnakeCase
+- convertFromTrainCase
+- convertFromUpperCase
+- convertFromUpperCamelCase
+
+### JSON Encoding
+
+To encode a Swift structure to JSON with keys in [kebab case](https://en.wikipedia.org/wiki/Letter_case#Special_case_styles) specify the `keyEncodingStrategy` as follows:
+
+```swift
+let encoder = JSONEncoder()
+encoder.keyEncodingStrategy = .convertToKebabCase
+let jsonData = try encoder.encode(vehicles)
+```
+
+Available strategies include:
+
+- convertToCapitalized
+- convertToDashCase
+- convertToKebabCase
+- convertToLispCase
+- convertToLowerCase
+- convertToLowerCamelCase
+- convertToMacroCase
+- convertToScreamingSnakeCase
+- convertToTrainCase
+- convertToUpperCase
+- convertToUpperCamelCase
 
 ## Author
 
