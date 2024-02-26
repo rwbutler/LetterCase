@@ -75,7 +75,17 @@ For more information [see here](https://github.com/Carthage/Carthage#quick-start
 
 ### Swift Package Manager
 
-Xcode 11 includes support for [Swift Package Manager](https://swift.org/package-manager/). In order to add LetterCase to your project in Xcode 11, from the `File` menu select `Swift Packages` and then select `Add Package Dependency`.
+Once you have your Swift package set up, adding LetterCase as a dependency is as easy as adding it to the dependencies value of your `Package.swift`:
+
+```
+dependencies: [
+    .package(url: "https://github.com/rwbutler/LetterCase", from: "1.6.1")
+]
+```
+
+##### Using Xcode package list:
+
+Xcode 11 includes support for [Swift Package Manager](https://swift.org/package-manager/). In order to add LetterCase to your project using Xcode, from the `File` menu select `Swift Packages` and then select `Add Package Dependency`.
 
 A dialogue will request the package repository URL which is:
 
