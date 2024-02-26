@@ -77,7 +77,7 @@ For more information [see here](https://github.com/Carthage/Carthage#quick-start
 
 Once you have your Swift package set up, adding LetterCase as a dependency is as easy as adding it to the dependencies value of your `Package.swift`:
 
-```
+```swift
 dependencies: [
     .package(url: "https://github.com/rwbutler/LetterCase", from: "1.6.1")
 ]
