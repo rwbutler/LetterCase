@@ -7,98 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BCE87B71AFE79D36623DB4AD76D4647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		0EF5FE59F79A1E3E1FB85228867FBDFF /* LetterCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 336B0516808B38992B189AEB435C1F73 /* LetterCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		136373BD238448B700A4E786 /* StringAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136373BA238448B700A4E786 /* StringAdditions.swift */; };
-		136373BE238448B700A4E786 /* LetterCaseOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136373BB238448B700A4E786 /* LetterCaseOptions.swift */; };
-		136373BF238448B700A4E786 /* LetterCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136373BC238448B700A4E786 /* LetterCase.swift */; };
-		13C3952424EDCABD00EA1E57 /* KeyDecodingStrategyAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3952324EDCABD00EA1E57 /* KeyDecodingStrategyAdditions.swift */; };
-		47483AC77A4589E22F8E27AFFC951CEB /* Pods-LetterCase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30000CD1B08666EFADF1A551C8EB9D45 /* Pods-LetterCase_Example-dummy.m */; };
-		6EB4EBF9A8133D511C8D809A0F126EBA /* Pods-LetterCase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14ABCE82A9F82AC3C5D165DEDBE0D7E8 /* Pods-LetterCase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B2E3ADFBA4FB87DCDC6DCA22EEB01EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A6C86E269B2652A367CBD666C16C913C /* Pods-LetterCase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C1C496B66BFF4D024D27904ACFEF6B /* Pods-LetterCase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A988315C847EA8157AC3BF2C98A1463F /* LetterCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C90A7A405086870394FA178B63C69380 /* LetterCase-dummy.m */; };
-		C08C8968A14FC6E067A1BC7EEF6C74D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C8F052F750CA65A56B1FF86D19A619D1 /* Pods-LetterCase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B28F9D5718DA17A5AD773266C559AFA /* Pods-LetterCase_Tests-dummy.m */; };
+		106F6EF379D94926288D7F4953777CA5 /* KeyDecodingStrategyAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F1D3520FAAD74A260BE80C9AA6ABA /* KeyDecodingStrategyAdditions.swift */; };
+		22D034C1CB99D75512E93E9C789EA7DE /* Pods-LetterCase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14ABCE82A9F82AC3C5D165DEDBE0D7E8 /* Pods-LetterCase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		351C12954ECEED64B47AB2A1FBC4371B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		4B6CE3EB1AA8EE98A2025094FF27026E /* StringAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D2D809B5D8F83E9AF1FB59AB872AF /* StringAdditions.swift */; };
+		5BDFF4BEFECF88C9659EDA88E4FB2BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		6354CC000F9E454D671228AD6E53136B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		77048A5736CAAB63CFE3B848AFD22D9E /* LetterCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B922E246B5C0E13DAE5E892C8ED3393 /* LetterCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48228D9318C95E22287B21B7127CFB2 /* Pods-LetterCase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30000CD1B08666EFADF1A551C8EB9D45 /* Pods-LetterCase_Example-dummy.m */; };
+		CD18E5103649599FF9529024B738AD9B /* LetterCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF5A8159AF58F10961EA38B061D1E8 /* LetterCase-dummy.m */; };
+		CF899BA174CA1E471669407C04A63E8A /* Pods-LetterCase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C1C496B66BFF4D024D27904ACFEF6B /* Pods-LetterCase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6B05CB3A8B10D9869A02036DA25479 /* Pods-LetterCase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B28F9D5718DA17A5AD773266C559AFA /* Pods-LetterCase_Tests-dummy.m */; };
+		E86489F66820ED2D80F7573158882F73 /* LetterCaseOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2707F77AAFE57A5C19DA352D28F7A7C /* LetterCaseOptions.swift */; };
+		FB8EB31434BEE6B399A367315EB7126E /* LetterCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92957855EB2E592A53CDE8D538E4FFF /* LetterCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BE53B575C594468453DB6DEA5174CB72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80CFDF563C7BC08B4F88F7F079409392;
-			remoteInfo = "Pods-LetterCase_Example";
-		};
-		D0B4D9B4E94461F4B0003312E01D4F4D /* PBXContainerItemProxy */ = {
+		01162417B14C727FC01421528A4E247C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5043A3CBF79CFE6BE7241973DB1B0EA3;
 			remoteInfo = LetterCase;
 		};
+		0F421792C7AB8AA85FABBBDBAB30DC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CFDF563C7BC08B4F88F7F079409392;
+			remoteInfo = "Pods-LetterCase_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04D074E2A46D422A4D5511F84729849E /* Pods-LetterCase_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LetterCase_Example-Info.plist"; sourceTree = "<group>"; };
 		0B28F9D5718DA17A5AD773266C559AFA /* Pods-LetterCase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LetterCase_Tests-dummy.m"; sourceTree = "<group>"; };
-		136373BA238448B700A4E786 /* StringAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringAdditions.swift; path = LetterCase/Classes/StringAdditions.swift; sourceTree = "<group>"; };
-		136373BB238448B700A4E786 /* LetterCaseOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LetterCaseOptions.swift; path = LetterCase/Classes/LetterCaseOptions.swift; sourceTree = "<group>"; };
-		136373BC238448B700A4E786 /* LetterCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LetterCase.swift; path = LetterCase/Classes/LetterCase.swift; sourceTree = "<group>"; };
-		13C3952324EDCABD00EA1E57 /* KeyDecodingStrategyAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyDecodingStrategyAdditions.swift; path = LetterCase/Classes/KeyDecodingStrategyAdditions.swift; sourceTree = "<group>"; };
+		0B922E246B5C0E13DAE5E892C8ED3393 /* LetterCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetterCase-umbrella.h"; sourceTree = "<group>"; };
+		0E1F1D3520FAAD74A260BE80C9AA6ABA /* KeyDecodingStrategyAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyDecodingStrategyAdditions.swift; path = LetterCase/Classes/KeyDecodingStrategyAdditions.swift; sourceTree = "<group>"; };
 		14ABCE82A9F82AC3C5D165DEDBE0D7E8 /* Pods-LetterCase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LetterCase_Tests-umbrella.h"; sourceTree = "<group>"; };
-		180D0CDB847732B3F9439667E222788A /* LetterCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LetterCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BADFC3669487D9099AA75FDFDC8A108 /* Pods_LetterCase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetterCase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		180D0CDB847732B3F9439667E222788A /* LetterCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LetterCase; path = LetterCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BADFC3669487D9099AA75FDFDC8A108 /* Pods-LetterCase_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LetterCase_Tests"; path = Pods_LetterCase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E30F1051F9ED726C22F9358507EE7CF /* LetterCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetterCase-prefix.pch"; sourceTree = "<group>"; };
 		217AE3B07D5D0335D019E5FCC8E260D3 /* Pods-LetterCase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetterCase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		25DB32FAC0B6E09A0342E4A32451D0CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		26B95B3AC1533EBE95BECDCD598F69E4 /* LetterCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LetterCase.modulemap; sourceTree = "<group>"; };
 		2D1C095A0F942251E74D282C5CB35462 /* Pods-LetterCase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LetterCase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		30000CD1B08666EFADF1A551C8EB9D45 /* Pods-LetterCase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LetterCase_Example-dummy.m"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32FB51EACE5A8A785AE5B3A8BC1DF59E /* Pods-LetterCase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LetterCase_Tests.modulemap"; sourceTree = "<group>"; };
-		336B0516808B38992B189AEB435C1F73 /* LetterCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetterCase-umbrella.h"; sourceTree = "<group>"; };
-		3ABA5BE2D8DFB15740EACBCA6B113612 /* Lettercase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Lettercase.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		3E91E0CD5913F34F22F812C5F5B20CC7 /* LetterCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LetterCase-Info.plist"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47A6A710B6BDCD46F0681C8D9BAC5926 /* letter-case-banner.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "letter-case-banner.png"; path = "docs/images/letter-case-banner.png"; sourceTree = "<group>"; };
 		59184ABE1E3010CBA8F5D41A00DF7E68 /* Pods-LetterCase_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LetterCase_Tests-Info.plist"; sourceTree = "<group>"; };
+		5E955147FB61539F6D0CA7A7C79B0904 /* LetterCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LetterCase.debug.xcconfig; sourceTree = "<group>"; };
+		669E247AF93B03E08851529EA2C0A67E /* letter-case-banner.afdesign */ = {isa = PBXFileReference; includeInIndex = 1; name = "letter-case-banner.afdesign"; path = "docs/images/letter-case-banner.afdesign"; sourceTree = "<group>"; };
 		738416C25F6718088422F56DEF6C97D1 /* Pods-LetterCase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LetterCase_Example.modulemap"; sourceTree = "<group>"; };
 		887F32D57AE0A3C10BD542FF67ADFF67 /* Pods-LetterCase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LetterCase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9097C36451C13C76642191A4BBE03325 /* LetterCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetterCase-prefix.pch"; sourceTree = "<group>"; };
+		8A630FC9EB60AF8FB9748E6DF48468D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9413BBF3082332499486D2C5A5EC2DBE /* Pods-LetterCase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LetterCase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4260866E5D686DFA7DC40D231D5962E /* Pods-LetterCase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetterCase_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A97CB3AE662E0C378E295651AC7DD646 /* LetterCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LetterCase.modulemap; sourceTree = "<group>"; };
+		AF49BA9553FD607856DA2AD4A5BD7B86 /* LetterCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LetterCase.release.xcconfig; sourceTree = "<group>"; };
 		B3F380FC86A2B344CC7D002F94AD942C /* Pods-LetterCase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetterCase_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B473711796F924825C827599AF3C1A80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C8C1C496B66BFF4D024D27904ACFEF6B /* Pods-LetterCase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LetterCase_Example-umbrella.h"; sourceTree = "<group>"; };
-		C90A7A405086870394FA178B63C69380 /* LetterCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LetterCase-dummy.m"; sourceTree = "<group>"; };
+		C92957855EB2E592A53CDE8D538E4FFF /* LetterCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LetterCase.swift; path = LetterCase/Classes/LetterCase.swift; sourceTree = "<group>"; };
 		C9CE3F80040B73B79382A359A8428422 /* Pods-LetterCase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LetterCase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE73A3705E24B5708B5A751C4B9B3AA2 /* Pods-LetterCase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LetterCase_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DCE931389002FBA58F16141D1D674986 /* LetterCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LetterCase.xcconfig; sourceTree = "<group>"; };
-		DFB9B3C72144F4697613087085254FFD /* Pods_LetterCase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetterCase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E180D0DEEA7326F384569D8143248633 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D881BD4B91B410095E752548FFB72124 /* LetterCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LetterCase-Info.plist"; sourceTree = "<group>"; };
+		DFB9B3C72144F4697613087085254FFD /* Pods-LetterCase_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LetterCase_Example"; path = Pods_LetterCase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2707F77AAFE57A5C19DA352D28F7A7C /* LetterCaseOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LetterCaseOptions.swift; path = LetterCase/Classes/LetterCaseOptions.swift; sourceTree = "<group>"; };
 		E7B97C8CDC033F1AF060206DCD1D715B /* Pods-LetterCase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetterCase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA6D29AAF69D54CCF23C5233C590FA44 /* LetterCase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LetterCase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ECFF5A8159AF58F10961EA38B061D1E8 /* LetterCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LetterCase-dummy.m"; sourceTree = "<group>"; };
+		F36D2D809B5D8F83E9AF1FB59AB872AF /* StringAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringAdditions.swift; path = LetterCase/Classes/StringAdditions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		34DFC750228489FC10E9B5E7DB6AA261 /* Frameworks */ = {
+		5174B3C999ABBBD8B2DFCD4331719FE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCE87B71AFE79D36623DB4AD76D4647 /* Foundation.framework in Frameworks */,
+				5BDFF4BEFECF88C9659EDA88E4FB2BC0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48D8083D892B3E8089D5515908664AB2 /* Frameworks */ = {
+		64FE7033604DCCF6FB2E363147D04A65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B2E3ADFBA4FB87DCDC6DCA22EEB01EB /* Foundation.framework in Frameworks */,
+				6354CC000F9E454D671228AD6E53136B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E38D6DB76F635B5CC930070A2A7FFC8 /* Frameworks */ = {
+		959255C1278ABB8EF9241F04F58208BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C08C8968A14FC6E067A1BC7EEF6C74D8 /* Foundation.framework in Frameworks */,
+				351C12954ECEED64B47AB2A1FBC4371B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,45 +125,64 @@
 			path = "Target Support Files/Pods-LetterCase_Example";
 			sourceTree = "<group>";
 		};
-		6099D0DC720C56C844C9D24332983211 /* Support Files */ = {
+		5A9D614F5B9BC75DF6D2486E1F2EF0C0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				26B95B3AC1533EBE95BECDCD598F69E4 /* LetterCase.modulemap */,
-				DCE931389002FBA58F16141D1D674986 /* LetterCase.xcconfig */,
-				C90A7A405086870394FA178B63C69380 /* LetterCase-dummy.m */,
-				3E91E0CD5913F34F22F812C5F5B20CC7 /* LetterCase-Info.plist */,
-				9097C36451C13C76642191A4BBE03325 /* LetterCase-prefix.pch */,
-				336B0516808B38992B189AEB435C1F73 /* LetterCase-umbrella.h */,
+				A97CB3AE662E0C378E295651AC7DD646 /* LetterCase.modulemap */,
+				ECFF5A8159AF58F10961EA38B061D1E8 /* LetterCase-dummy.m */,
+				D881BD4B91B410095E752548FFB72124 /* LetterCase-Info.plist */,
+				1E30F1051F9ED726C22F9358507EE7CF /* LetterCase-prefix.pch */,
+				0B922E246B5C0E13DAE5E892C8ED3393 /* LetterCase-umbrella.h */,
+				5E955147FB61539F6D0CA7A7C79B0904 /* LetterCase.debug.xcconfig */,
+				AF49BA9553FD607856DA2AD4A5BD7B86 /* LetterCase.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LetterCase";
 			sourceTree = "<group>";
 		};
-		9A62DFC3AE85C1F67269F53450B12D11 /* Pod */ = {
+		64B281296A70A05E8FA8D251AA993E0F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3ABA5BE2D8DFB15740EACBCA6B113612 /* Lettercase.podspec */,
-				25DB32FAC0B6E09A0342E4A32451D0CD /* LICENSE */,
-				E180D0DEEA7326F384569D8143248633 /* README.md */,
+				669E247AF93B03E08851529EA2C0A67E /* letter-case-banner.afdesign */,
+				47A6A710B6BDCD46F0681C8D9BAC5926 /* letter-case-banner.png */,
+				EA6D29AAF69D54CCF23C5233C590FA44 /* LetterCase.podspec */,
+				8A630FC9EB60AF8FB9748E6DF48468D6 /* LICENSE */,
+				B473711796F924825C827599AF3C1A80 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		9D45344873092E5142165C18F40FA7E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				180D0CDB847732B3F9439667E222788A /* LetterCase */,
+				DFB9B3C72144F4697613087085254FFD /* Pods-LetterCase_Example */,
+				1BADFC3669487D9099AA75FDFDC8A108 /* Pods-LetterCase_Tests */,
 			);
-			name = iOS;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AED2932148D1E5549DF5DD2549BFC511 /* LetterCase */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F1D3520FAAD74A260BE80C9AA6ABA /* KeyDecodingStrategyAdditions.swift */,
+				C92957855EB2E592A53CDE8D538E4FFF /* LetterCase.swift */,
+				E2707F77AAFE57A5C19DA352D28F7A7C /* LetterCaseOptions.swift */,
+				F36D2D809B5D8F83E9AF1FB59AB872AF /* StringAdditions.swift */,
+				64B281296A70A05E8FA8D251AA993E0F /* Pod */,
+				5A9D614F5B9BC75DF6D2486E1F2EF0C0 /* Support Files */,
+			);
+			name = LetterCase;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F2B8A9ACF41A8814C92143D19DB969EA /* Development Pods */,
+				F389D33A49F1B729C682450B7440F1F8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DCD5F6D03F5FD18EBD951F822CEA3980 /* Products */,
+				9D45344873092E5142165C18F40FA7E9 /* Products */,
 				F1B63B8E47E175AC5B329EB711775569 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -168,33 +190,17 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DCD5F6D03F5FD18EBD951F822CEA3980 /* Products */ = {
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				180D0CDB847732B3F9439667E222788A /* LetterCase.framework */,
-				DFB9B3C72144F4697613087085254FFD /* Pods_LetterCase_Example.framework */,
-				1BADFC3669487D9099AA75FDFDC8A108 /* Pods_LetterCase_Tests.framework */,
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E07607F282C2A19F3F1EE2EC78FAD4B4 /* LetterCase */ = {
-			isa = PBXGroup;
-			children = (
-				13C3952324EDCABD00EA1E57 /* KeyDecodingStrategyAdditions.swift */,
-				136373BC238448B700A4E786 /* LetterCase.swift */,
-				136373BB238448B700A4E786 /* LetterCaseOptions.swift */,
-				136373BA238448B700A4E786 /* StringAdditions.swift */,
-				9A62DFC3AE85C1F67269F53450B12D11 /* Pod */,
-				6099D0DC720C56C844C9D24332983211 /* Support Files */,
-			);
-			name = LetterCase;
-			path = ../..;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F1B63B8E47E175AC5B329EB711775569 /* Targets Support Files */ = {
@@ -206,10 +212,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F2B8A9ACF41A8814C92143D19DB969EA /* Development Pods */ = {
+		F389D33A49F1B729C682450B7440F1F8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E07607F282C2A19F3F1EE2EC78FAD4B4 /* LetterCase */,
+				AED2932148D1E5549DF5DD2549BFC511 /* LetterCase */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -233,27 +239,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9956CC5BA726BC03C3174FE3BC24E1B1 /* Headers */ = {
+		44BE4EFDC10F3109DBD59E98BA527E9A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EB4EBF9A8133D511C8D809A0F126EBA /* Pods-LetterCase_Tests-umbrella.h in Headers */,
+				22D034C1CB99D75512E93E9C789EA7DE /* Pods-LetterCase_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8418AED4D033D342CD2F321123FFD7B /* Headers */ = {
+		49BE5557389954E06A468B3BB6FAC460 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6C86E269B2652A367CBD666C16C913C /* Pods-LetterCase_Example-umbrella.h in Headers */,
+				CF899BA174CA1E471669407C04A63E8A /* Pods-LetterCase_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E727414578CEBCA5D1DC86B600979FEE /* Headers */ = {
+		9E08B2E007059B2A48451FE2E8D01BD2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EF5FE59F79A1E3E1FB85228867FBDFF /* LetterCase-umbrella.h in Headers */,
+				77048A5736CAAB63CFE3B848AFD22D9E /* LetterCase-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,31 +268,31 @@
 /* Begin PBXNativeTarget section */
 		4662C0A5633D6B48DC9D1B9BA9C92D4E /* Pods-LetterCase_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CBE164DEA1DB44AB5B3CFE995579F8C /* Build configuration list for PBXNativeTarget "Pods-LetterCase_Tests" */;
+			buildConfigurationList = F3C63A2897FEFC26A6C47366AD77232D /* Build configuration list for PBXNativeTarget "Pods-LetterCase_Tests" */;
 			buildPhases = (
-				9956CC5BA726BC03C3174FE3BC24E1B1 /* Headers */,
-				180F0707E0AE45B3F97B2011AE8A1615 /* Sources */,
-				6E38D6DB76F635B5CC930070A2A7FFC8 /* Frameworks */,
-				B79E28CA49812CAAD99537DBFAB8D205 /* Resources */,
+				44BE4EFDC10F3109DBD59E98BA527E9A /* Headers */,
+				CBF6BE62144E9FED0F762C89D1DDDE66 /* Sources */,
+				5174B3C999ABBBD8B2DFCD4331719FE0 /* Frameworks */,
+				FD812D64465687395A845B8EB1A2CBD0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9C7ECB09EEB77EF6CC40FD59A21C94F9 /* PBXTargetDependency */,
+				4B05E2A4010DB3402438238DF6AED1CF /* PBXTargetDependency */,
 			);
 			name = "Pods-LetterCase_Tests";
-			productName = "Pods-LetterCase_Tests";
-			productReference = 1BADFC3669487D9099AA75FDFDC8A108 /* Pods_LetterCase_Tests.framework */;
+			productName = Pods_LetterCase_Tests;
+			productReference = 1BADFC3669487D9099AA75FDFDC8A108 /* Pods-LetterCase_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		5043A3CBF79CFE6BE7241973DB1B0EA3 /* LetterCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB30690D99A6295BAB04E4BE00D3F540 /* Build configuration list for PBXNativeTarget "LetterCase" */;
+			buildConfigurationList = 184EE28E9C3F2A4668A1C737B227DC7C /* Build configuration list for PBXNativeTarget "LetterCase" */;
 			buildPhases = (
-				E727414578CEBCA5D1DC86B600979FEE /* Headers */,
-				05DE78AF33E13BB1754BB39E8843C0B2 /* Sources */,
-				48D8083D892B3E8089D5515908664AB2 /* Frameworks */,
-				8921A50C9CBA6C766E312ED6A19F151E /* Resources */,
+				9E08B2E007059B2A48451FE2E8D01BD2 /* Headers */,
+				808B6491692D824288BB1AA69A6834BA /* Sources */,
+				959255C1278ABB8EF9241F04F58208BB /* Frameworks */,
+				618E893FF91DF1F8DB269DA1678EDC33 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -294,26 +300,26 @@
 			);
 			name = LetterCase;
 			productName = LetterCase;
-			productReference = 180D0CDB847732B3F9439667E222788A /* LetterCase.framework */;
+			productReference = 180D0CDB847732B3F9439667E222788A /* LetterCase */;
 			productType = "com.apple.product-type.framework";
 		};
 		80CFDF563C7BC08B4F88F7F079409392 /* Pods-LetterCase_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BFF49C32DB9314EDCA73D5DC9A6D506 /* Build configuration list for PBXNativeTarget "Pods-LetterCase_Example" */;
+			buildConfigurationList = BC3F58F1C51EC4F2358C7B5472C760D4 /* Build configuration list for PBXNativeTarget "Pods-LetterCase_Example" */;
 			buildPhases = (
-				D8418AED4D033D342CD2F321123FFD7B /* Headers */,
-				FD17E8D33F199B99D82A58A9D3E5EC21 /* Sources */,
-				34DFC750228489FC10E9B5E7DB6AA261 /* Frameworks */,
-				6A67C0D78865B3F4FD31B18878D08B90 /* Resources */,
+				49BE5557389954E06A468B3BB6FAC460 /* Headers */,
+				6740081566609626D6908DE737F19329 /* Sources */,
+				64FE7033604DCCF6FB2E363147D04A65 /* Frameworks */,
+				A663A14CB453822A3817BA67C681E7DD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4BC3060811BF47485F8B3E8BC4367CD6 /* PBXTargetDependency */,
+				E03333A870F8EBE073690F98E64CD3CD /* PBXTargetDependency */,
 			);
 			name = "Pods-LetterCase_Example";
-			productName = "Pods-LetterCase_Example";
-			productReference = DFB9B3C72144F4697613087085254FFD /* Pods_LetterCase_Example.framework */;
+			productName = Pods_LetterCase_Example;
+			productReference = DFB9B3C72144F4697613087085254FFD /* Pods-LetterCase_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -322,24 +328,21 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					5043A3CBF79CFE6BE7241973DB1B0EA3 = {
-						LastSwiftMigration = 1120;
-					};
-				};
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DCD5F6D03F5FD18EBD951F822CEA3980 /* Products */;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9D45344873092E5142165C18F40FA7E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -351,21 +354,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6A67C0D78865B3F4FD31B18878D08B90 /* Resources */ = {
+		618E893FF91DF1F8DB269DA1678EDC33 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8921A50C9CBA6C766E312ED6A19F151E /* Resources */ = {
+		A663A14CB453822A3817BA67C681E7DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B79E28CA49812CAAD99537DBFAB8D205 /* Resources */ = {
+		FD812D64465687395A845B8EB1A2CBD0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,59 +378,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05DE78AF33E13BB1754BB39E8843C0B2 /* Sources */ = {
+		6740081566609626D6908DE737F19329 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				136373BD238448B700A4E786 /* StringAdditions.swift in Sources */,
-				136373BE238448B700A4E786 /* LetterCaseOptions.swift in Sources */,
-				A988315C847EA8157AC3BF2C98A1463F /* LetterCase-dummy.m in Sources */,
-				136373BF238448B700A4E786 /* LetterCase.swift in Sources */,
-				13C3952424EDCABD00EA1E57 /* KeyDecodingStrategyAdditions.swift in Sources */,
+				A48228D9318C95E22287B21B7127CFB2 /* Pods-LetterCase_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		180F0707E0AE45B3F97B2011AE8A1615 /* Sources */ = {
+		808B6491692D824288BB1AA69A6834BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8F052F750CA65A56B1FF86D19A619D1 /* Pods-LetterCase_Tests-dummy.m in Sources */,
+				106F6EF379D94926288D7F4953777CA5 /* KeyDecodingStrategyAdditions.swift in Sources */,
+				FB8EB31434BEE6B399A367315EB7126E /* LetterCase.swift in Sources */,
+				CD18E5103649599FF9529024B738AD9B /* LetterCase-dummy.m in Sources */,
+				E86489F66820ED2D80F7573158882F73 /* LetterCaseOptions.swift in Sources */,
+				4B6CE3EB1AA8EE98A2025094FF27026E /* StringAdditions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD17E8D33F199B99D82A58A9D3E5EC21 /* Sources */ = {
+		CBF6BE62144E9FED0F762C89D1DDDE66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47483AC77A4589E22F8E27AFFC951CEB /* Pods-LetterCase_Example-dummy.m in Sources */,
+				DE6B05CB3A8B10D9869A02036DA25479 /* Pods-LetterCase_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4BC3060811BF47485F8B3E8BC4367CD6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LetterCase;
-			target = 5043A3CBF79CFE6BE7241973DB1B0EA3 /* LetterCase */;
-			targetProxy = D0B4D9B4E94461F4B0003312E01D4F4D /* PBXContainerItemProxy */;
-		};
-		9C7ECB09EEB77EF6CC40FD59A21C94F9 /* PBXTargetDependency */ = {
+		4B05E2A4010DB3402438238DF6AED1CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LetterCase_Example";
 			target = 80CFDF563C7BC08B4F88F7F079409392 /* Pods-LetterCase_Example */;
-			targetProxy = BE53B575C594468453DB6DEA5174CB72 /* PBXContainerItemProxy */;
+			targetProxy = 0F421792C7AB8AA85FABBBDBAB30DC03 /* PBXContainerItemProxy */;
+		};
+		E03333A870F8EBE073690F98E64CD3CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LetterCase;
+			target = 5043A3CBF79CFE6BE7241973DB1B0EA3 /* LetterCase */;
+			targetProxy = 01162417B14C727FC01421528A4E247C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4546300EDECCECF033BFB89AC2A66DA6 /* Release */ = {
+		07A66E6CA46BBA050FBE541F617A6255 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCE931389002FBA58F16141D1D674986 /* LetterCase.xcconfig */;
+			baseConfigurationReference = 5E955147FB61539F6D0CA7A7C79B0904 /* LetterCase.debug.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -436,189 +438,33 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/LetterCase/LetterCase-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/LetterCase/LetterCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.6.1;
-				MODULEMAP_FILE = "Target Support Files/LetterCase/LetterCase.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rwbutler.LetterCase;
-				PRODUCT_MODULE_NAME = LetterCase;
-				PRODUCT_NAME = LetterCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4AD08FCA39E601A6C15C40A6AAE94C50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCE931389002FBA58F16141D1D674986 /* LetterCase.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LetterCase/LetterCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LetterCase/LetterCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.6.1;
-				MODULEMAP_FILE = "Target Support Files/LetterCase/LetterCase.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rwbutler.LetterCase;
-				PRODUCT_MODULE_NAME = LetterCase;
-				PRODUCT_NAME = LetterCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		50AC21C83B8F3C0C78175A08DA3C6310 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 217AE3B07D5D0335D019E5FCC8E260D3 /* Pods-LetterCase_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LetterCase_Tests/Pods-LetterCase_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LetterCase_Tests/Pods-LetterCase_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9C1864511A85E5D53056FCAF77074DEC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3F380FC86A2B344CC7D002F94AD942C /* Pods-LetterCase_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LetterCase_Example/Pods-LetterCase_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LetterCase_Example/Pods-LetterCase_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LetterCase/LetterCase.modulemap";
+				PRODUCT_MODULE_NAME = LetterCase;
+				PRODUCT_NAME = LetterCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -641,6 +487,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -679,44 +526,13 @@
 			};
 			name = Debug;
 		};
-		CD3799743EFE47E8BBF90C3533BB65D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7B97C8CDC033F1AF060206DCD1D715B /* Pods-LetterCase_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LetterCase_Tests/Pods-LetterCase_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LetterCase_Tests/Pods-LetterCase_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DC2EE403A8A4B4498AA00F98EA4380EF /* Release */ = {
+		33595ADDCD8B7E427A57A2AED4BD0C61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4260866E5D686DFA7DC40D231D5962E /* Pods-LetterCase_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -725,8 +541,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-LetterCase_Example/Pods-LetterCase_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LetterCase_Example/Pods-LetterCase_Example.modulemap";
@@ -744,14 +563,222 @@
 			};
 			name = Release;
 		};
+		46B85B39B5220D9A6B30B4E7E1E33169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF49BA9553FD607856DA2AD4A5BD7B86 /* LetterCase.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/LetterCase/LetterCase-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/LetterCase/LetterCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LetterCase/LetterCase.modulemap";
+				PRODUCT_MODULE_NAME = LetterCase;
+				PRODUCT_NAME = LetterCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6CDAB68D939C368A1F6B0F94625F479C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F380FC86A2B344CC7D002F94AD942C /* Pods-LetterCase_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LetterCase_Example/Pods-LetterCase_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetterCase_Example/Pods-LetterCase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8314871CAE6CC339ECAB7E4BE92BA0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B97C8CDC033F1AF060206DCD1D715B /* Pods-LetterCase_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LetterCase_Tests/Pods-LetterCase_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetterCase_Tests/Pods-LetterCase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0C60BA3A6C0B50BCC3D1690813DEC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217AE3B07D5D0335D019E5FCC8E260D3 /* Pods-LetterCase_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LetterCase_Tests/Pods-LetterCase_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetterCase_Tests/Pods-LetterCase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BFF49C32DB9314EDCA73D5DC9A6D506 /* Build configuration list for PBXNativeTarget "Pods-LetterCase_Example" */ = {
+		184EE28E9C3F2A4668A1C737B227DC7C /* Build configuration list for PBXNativeTarget "LetterCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C1864511A85E5D53056FCAF77074DEC /* Debug */,
-				DC2EE403A8A4B4498AA00F98EA4380EF /* Release */,
+				07A66E6CA46BBA050FBE541F617A6255 /* Debug */,
+				46B85B39B5220D9A6B30B4E7E1E33169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -759,26 +786,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CBE164DEA1DB44AB5B3CFE995579F8C /* Build configuration list for PBXNativeTarget "Pods-LetterCase_Tests" */ = {
+		BC3F58F1C51EC4F2358C7B5472C760D4 /* Build configuration list for PBXNativeTarget "Pods-LetterCase_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD3799743EFE47E8BBF90C3533BB65D4 /* Debug */,
-				50AC21C83B8F3C0C78175A08DA3C6310 /* Release */,
+				6CDAB68D939C368A1F6B0F94625F479C /* Debug */,
+				33595ADDCD8B7E427A57A2AED4BD0C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB30690D99A6295BAB04E4BE00D3F540 /* Build configuration list for PBXNativeTarget "LetterCase" */ = {
+		F3C63A2897FEFC26A6C47366AD77232D /* Build configuration list for PBXNativeTarget "Pods-LetterCase_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AD08FCA39E601A6C15C40A6AAE94C50 /* Debug */,
-				4546300EDECCECF033BFB89AC2A66DA6 /* Release */,
+				8314871CAE6CC339ECAB7E4BE92BA0F3 /* Debug */,
+				C0C60BA3A6C0B50BCC3D1690813DEC42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,5 +1,5 @@
 PODS:
-  - LetterCase (0.1.0)
+  - LetterCase (2.0.0)
 
 DEPENDENCIES:
   - LetterCase (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LetterCase: c7f94685d7e54c7f61cccab99b58c237a12262a5
+  LetterCase: fcf09c2ccfd9f8dba7c16ff5d3c4be59838f4d79
 
 PODFILE CHECKSUM: ea47186186dbd7dd2cd2b17aacd77076d0ea9c7f
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.16.2
