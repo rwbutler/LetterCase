@@ -85,7 +85,7 @@ dependencies: [
 
 ##### Using Xcode package list:
 
-Xcode 11 includes support for [Swift Package Manager](https://swift.org/package-manager/). In order to add LetterCase to your project using Xcode, from the `File` menu select `Swift Packages` and then select `Add Package Dependency`.
+Xcode includes support for [Swift Package Manager](https://swift.org/package-manager/). In order to add LetterCase to your project using Xcode, from the `File` menu, select `Add Package Dependency`. (The option was in the `Swift Packages` in some older Xcode versions)
 
 A dialogue will request the package repository URL which is:
 
