@@ -79,13 +79,13 @@ Once you have your Swift package set up, adding LetterCase as a dependency is as
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/rwbutler/LetterCase", from: "1.6.1")
+    .package(url: "https://github.com/rwbutler/LetterCase", from: "2.0.0")
 ]
 ```
 
 ##### Using Xcode package list:
 
-Xcode 11 includes support for [Swift Package Manager](https://swift.org/package-manager/). In order to add LetterCase to your project using Xcode, from the `File` menu select `Swift Packages` and then select `Add Package Dependency`.
+Xcode includes support for [Swift Package Manager](https://swift.org/package-manager/). In order to add LetterCase to your project using Xcode, from the `File` menu, select `Add Package Dependency`. (The option was in the `Swift Packages` in some older Xcode versions)
 
 A dialogue will request the package repository URL which is:
 
@@ -96,13 +96,13 @@ https://github.com/rwbutler/LetterCase
 After verifying the URL, Xcode will prompt you to select whether to pull a specific branch, commit or versioned release into your project. 
 
 <div align="center">
-    <img src="https://github.com/rwbutler/Connectivity/raw/main/docs/images/package-options.png" alt="Xcode 11 Package Options">
+    <img src="https://github.com/rwbutler/LetterCase/raw/master/docs/images/package-source.png" alt="Xcode 16 Package Source">
 </div>
 
 Proceed to the next step by where you will be asked to select the package product to integrate into a target. There will be a single package product named `LetterCase` which should be pre-selected. Ensure that your main app target is selected from the rightmost column of the dialog then click Finish to complete the integration.
 
 <div align="center">
-    <img src="https://github.com/rwbutler/Connectivity/raw/main/docs/images/add-package.png" alt="Xcode 11 Add Package">
+    <img src="https://github.com/rwbutler/LetterCase/raw/master/docs/images/package-product.png" alt="Xcode 16 Package Product">
 </div>
 
 ## Letter Cases
