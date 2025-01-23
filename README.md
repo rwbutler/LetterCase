@@ -79,7 +79,7 @@ Once you have your Swift package set up, adding LetterCase as a dependency is as
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/rwbutler/LetterCase", from: "1.6.1")
+    .package(url: "https://github.com/rwbutler/LetterCase", from: "2.0.0")
 ]
 ```
 
